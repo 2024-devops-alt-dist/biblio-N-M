@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color:black;
+    background-color: #181818;
     color:white;
 }
 
@@ -38,7 +38,7 @@ main {
     align-items: center;
     padding: 1rem;
     border: 0.5px solid rgb(74, 74, 74);
-    background: black;
+    background: #333;
     margin-bottom: 1rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ main {
 }
 
 .chat-item:hover {
-    background: rgb(74, 74, 74)
+    background: #CE2020;
 }
 
 .chat-item img {
@@ -59,7 +59,6 @@ main {
 .chat-item .chat-content h3 {
     margin: 0;
     font-size: 1rem;
-    color: #007bff;
 }
 
 .chat-item .chat-content p {

@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: black;
+    background-color: #181818;
     color: white;
 }
 
@@ -58,7 +58,7 @@ main {
 }
 
 .message.sent {
-    background: #ff4000;
+    background: #CE2020;
     color: #fff;
     align-self: flex-end;
     margin-left: auto;
@@ -84,14 +84,14 @@ main {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background: #007bff;
+    background: #CE2020;
     color: #fff;
     cursor: pointer;
     transition: background 0.3s;
 }
 
 .message-form button:hover {
-    background: #0056b3;
+    background: #E73C3C;
 }
 
 footer {
@@ -156,11 +156,12 @@ footer ul li a:hover {
     }
 
     .message.received {
-        background: #e9ecef;
+        background: #333;
+        color: white;
     }
 
     .message.sent {
-        background: #007bff;
+        background: #CE2020;
         color: #fff;
     }
 
